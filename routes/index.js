@@ -12,8 +12,8 @@ router.get('/', function(req, res) {
 router.param('quizId', quizController.load); // autoload :quizId
 
 // definición de las rutas de /quizes
-router.get('/quizes',						quizController.index);
-router.get('/quizes/:quizId(\\d+)', 		quizController.show);
+router.get('/quizes',						quizController.index),
+router.get('/quizes/:quizId(\\d+)', 		quizController.show),
 router.get('/quizes/:quizId(\\d+)/answer',  quizController.answer);
 
 module.exports = router;
