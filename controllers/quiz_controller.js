@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var models = require('../models/models.js');
 
 // Autoload - factoriza el código si ruta incluye :quizId
@@ -48,7 +47,7 @@ exports.answer = function(req, res) {
 	}
 	res.render('quizes/answer', { quiz: req.quiz, respuesta: resultado });
 };
-=======
+
 // GET /quizes/question
 exports.question = function(req, res) {
 	res.render('quizes/question', {pregunta: 'Capital de Italia'});
@@ -68,4 +67,4 @@ exports.answer = function(req, res) {
 exports.author = function(req, res) {
 	res.render('quizes/author', {title: 'Quiz_p2p_mrm'});
 }
->>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
+

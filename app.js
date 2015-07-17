@@ -1,17 +1,16 @@
 var express = require('express');
-<<<<<<< HEAD
-=======
+
 var partials = require('express-partials');
->>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
+
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-<<<<<<< HEAD
+
 var partials = require('express-partials');
-=======
->>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
+
+
 
 var routes = require('./routes/index');
 
