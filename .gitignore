@@ -1,5 +1,9 @@
 node_modules
+<<<<<<< HEAD
 .DS_Store
 npm-debug.log
 quiz.sqlite
 .env
+=======
+npm-debug.log
+>>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa

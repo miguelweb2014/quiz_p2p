@@ -1,11 +1,21 @@
 #!/usr/bin/env node
+<<<<<<< HEAD
 var debug = require('debug')('quiz');
+=======
+var debug = require('debug')('quiz_p2p');
+>>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
 var app = require('../app');
 
 app.set('port', process.env.PORT || 3000);
 
+<<<<<<< HEAD
 console.log("Llega aquí 1");
 var server = app.listen(app.get('port'), function() {
   debug('Express server listening on port ' + server.address().port);
 });
 console.log("Llega aquí 2");
+=======
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+>>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
