@@ -5,5 +5,8 @@ body	{ background: #999; }
 nav			{ float: left; width: 15%; height: 200px; }
 nav span 	{ margin: 0 100px 0 0; }
 section 	{ float: right; width: 80%; height: 200px; }
+<<<<<<< HEAD
+=======
 #s1.main { height: 400px; }
+>>>>>>> 6153b1fad6b9412cd438fa5b8155ae5ec64facfa
 footer 		{ clear: both; display: block; }
